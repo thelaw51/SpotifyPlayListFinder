@@ -15,7 +15,16 @@
       <form id="SongSearchForm">
         <input type="text" class="form-control mb-2" name="txtSongSearch" placeholder="Search for song" />
         <button type="button" class="btn btn-primary w-100" id="btnSongSearch">Search</button>
-        <input type="text" class="form-control mb-2" name="txtSongSelection" placeholder="Select Song" />
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle w-100 bg-transparent text-dark" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Select a song
+          </button>
+          <ul class="dropdown-menu w-100">
+            <li><a class="dropdown-item" href="#">placeholder song 1</a></li>
+            <li><a class="dropdown-item" href="#">placeholder song 2</a></li>
+            <li><a class="dropdown-item" href="#">placeholder song 3</a></li>
+          </ul>
+        </div>
         <button type="submit" class="btn btn-primary w-100">Find Playlists</button>
       </form>
     </div>
